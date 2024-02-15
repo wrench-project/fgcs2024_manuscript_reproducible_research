@@ -1,0 +1,153 @@
+
+# BASIC ALGORITHM DFB STATISTICS
+################################
+
+Sorted DFB results for 27/27 scenarios:
+highest_bottom_level/most_idle_cpu_resources/as_many_as_possible
+  - average fdb: 12.63
+  - worst   dfb: 125.16
+highest_bottom_level/fastest_cores/as_many_as_possible
+  - average fdb: 12.81
+  - worst   dfb: 125.16
+most_children/fastest_cores/as_many_as_possible
+  - average fdb: 13.84
+  - worst   dfb: 130.62
+most_data/fastest_cores/as_many_as_possible
+  - average fdb: 15.15
+  - worst   dfb: 130.62
+highest_bottom_level/most_local_data/as_many_as_possible
+  - average fdb: 15.6
+  - worst   dfb: 125.43
+most_children/most_idle_cpu_resources/as_many_as_possible
+  - average fdb: 15.71
+  - worst   dfb: 130.62
+most_flops/fastest_cores/as_many_as_possible
+  - average fdb: 15.75
+  - worst   dfb: 125.16
+most_children/most_local_data/as_many_as_possible
+  - average fdb: 16.77
+  - worst   dfb: 131.18
+most_flops/most_local_data/as_many_as_possible
+  - average fdb: 18.56
+  - worst   dfb: 125.43
+most_flops/most_idle_cpu_resources/as_many_as_possible
+  - average fdb: 18.61
+  - worst   dfb: 125.16
+most_data/most_idle_cpu_resources/as_many_as_possible
+  - average fdb: 20.02
+  - worst   dfb: 130.62
+most_data/most_local_data/as_many_as_possible
+  - average fdb: 20.7
+  - worst   dfb: 130.83
+highest_bottom_level/fastest_cores/parallel_efficiency_fifty_percent
+  - average fdb: 22.81
+  - worst   dfb: 48.37
+highest_bottom_level/most_local_data/parallel_efficiency_fifty_percent
+  - average fdb: 23.01
+  - worst   dfb: 49.05
+highest_bottom_level/most_idle_cpu_resources/parallel_efficiency_fifty_percent
+  - average fdb: 23.21
+  - worst   dfb: 48.37
+most_flops/fastest_cores/parallel_efficiency_fifty_percent
+  - average fdb: 24.38
+  - worst   dfb: 48.36
+most_flops/most_local_data/parallel_efficiency_fifty_percent
+  - average fdb: 24.53
+  - worst   dfb: 49.05
+most_flops/most_idle_cpu_resources/parallel_efficiency_fifty_percent
+  - average fdb: 24.91
+  - worst   dfb: 48.36
+most_children/most_idle_cpu_resources/parallel_efficiency_fifty_percent
+  - average fdb: 25.05
+  - worst   dfb: 57.85
+highest_bottom_level/most_idle_cores/as_many_as_possible
+  - average fdb: 25.13
+  - worst   dfb: 125.16
+most_data/most_idle_cpu_resources/parallel_efficiency_fifty_percent
+  - average fdb: 25.36
+  - worst   dfb: 57.85
+most_children/most_idle_cores/as_many_as_possible
+  - average fdb: 26.49
+  - worst   dfb: 130.62
+most_children/fastest_cores/parallel_efficiency_fifty_percent
+  - average fdb: 26.82
+  - worst   dfb: 57.85
+most_data/fastest_cores/parallel_efficiency_fifty_percent
+  - average fdb: 27.23
+  - worst   dfb: 57.85
+Median: most_children/most_local_data/parallel_efficiency_fifty_percent
+  - average fdb: 29.38
+  - worst   dfb: 58.52
+most_flops/most_idle_cores/as_many_as_possible
+  - average fdb: 29.66
+  - worst   dfb: 125.16
+most_data/most_local_data/parallel_efficiency_fifty_percent
+  - average fdb: 29.74
+  - worst   dfb: 57.16
+most_data/most_idle_cores/as_many_as_possible
+  - average fdb: 31.11
+  - worst   dfb: 130.62
+highest_bottom_level/most_idle_cores/parallel_efficiency_fifty_percent
+  - average fdb: 38.01
+  - worst   dfb: 139.29
+most_flops/most_idle_cores/parallel_efficiency_fifty_percent
+  - average fdb: 38.97
+  - worst   dfb: 139.29
+most_data/most_idle_cores/parallel_efficiency_fifty_percent
+  - average fdb: 41.9
+  - worst   dfb: 139.38
+most_children/most_idle_cores/parallel_efficiency_fifty_percent
+  - average fdb: 42.54
+  - worst   dfb: 139.38
+highest_bottom_level/fastest_cores/parallel_efficiency_ninety_percent
+  - average fdb: 87.93
+  - worst   dfb: 225.03
+most_flops/fastest_cores/parallel_efficiency_ninety_percent
+  - average fdb: 88.31
+  - worst   dfb: 225.05
+most_data/fastest_cores/parallel_efficiency_ninety_percent
+  - average fdb: 88.84
+  - worst   dfb: 225.06
+most_children/fastest_cores/parallel_efficiency_ninety_percent
+  - average fdb: 88.89
+  - worst   dfb: 225.07
+highest_bottom_level/most_local_data/parallel_efficiency_ninety_percent
+  - average fdb: 89.52
+  - worst   dfb: 225.36
+most_flops/most_local_data/parallel_efficiency_ninety_percent
+  - average fdb: 89.66
+  - worst   dfb: 225.52
+most_data/most_local_data/parallel_efficiency_ninety_percent
+  - average fdb: 90.78
+  - worst   dfb: 225.5
+highest_bottom_level/most_idle_cpu_resources/parallel_efficiency_ninety_percent
+  - average fdb: 90.81
+  - worst   dfb: 225.03
+most_children/most_local_data/parallel_efficiency_ninety_percent
+  - average fdb: 91.05
+  - worst   dfb: 225.47
+most_flops/most_idle_cpu_resources/parallel_efficiency_ninety_percent
+  - average fdb: 91.24
+  - worst   dfb: 225.05
+most_children/most_idle_cpu_resources/parallel_efficiency_ninety_percent
+  - average fdb: 93.21
+  - worst   dfb: 225.07
+most_data/most_idle_cpu_resources/parallel_efficiency_ninety_percent
+  - average fdb: 93.23
+  - worst   dfb: 225.06
+highest_bottom_level/most_idle_cores/parallel_efficiency_ninety_percent
+  - average fdb: 122.53
+  - worst   dfb: 424.75
+most_flops/most_idle_cores/parallel_efficiency_ninety_percent
+  - average fdb: 122.9
+  - worst   dfb: 424.78
+most_data/most_idle_cores/parallel_efficiency_ninety_percent
+  - average fdb: 124.13
+  - worst   dfb: 424.79
+most_children/most_idle_cores/parallel_efficiency_ninety_percent
+  - average fdb: 124.21
+  - worst   dfb: 424.8
+
+Best algorithm on average = highest_bottom_level/most_idle_cpu_resources/as_many_as_possible
+min= 5.106309794026205 max= 424.7986315953388
+below 100%: 11
