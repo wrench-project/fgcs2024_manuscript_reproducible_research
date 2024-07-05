@@ -166,6 +166,7 @@ def importData(version, file_factor, verbosity=2):
 	result_dicts = {}
 	for f in extracted_files:
 		try:
+			print(extracted_files[f])
 			file = open(extracted_files[f], "r")
 		except OSError:
 			sys.stderr.write("Can't find extracted result file '" + extracted_files[f] +
@@ -173,7 +174,6 @@ def importData(version, file_factor, verbosity=2):
 			sys.exit(1)
 		contents = file.read()
 		allResults=ast.literal_eval(contents)
-		#print(allResults.keys())
 		result_dicts[f] = allResults[file_factor]
 
 	# Identify the workflows and the clusters, in sorted lists
