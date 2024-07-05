@@ -98,7 +98,7 @@ def compute_all_percent_diffs(result_dict):
 						worst_single_alg_makespan = makespan
 
 			# Getting relative best-worst difference value for each workflow-cluster configuration
-			config_name = "W" + str(workflow_index_map[workflow]) + ":P" + str(cluster_index_map[cluster])
+			config_name = "W" + str(workflow_index_map[workflow]) + ":P" + str(1 + cluster_index_map[cluster])
 			percent_diff[config_name] = (
 					100.0 * (worst_single_alg_makespan - best_single_alg_makespan) / best_single_alg_makespan)
 
